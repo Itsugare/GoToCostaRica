@@ -1,0 +1,52 @@
+
+@font-face
+{
+ font-family: 'Aloha';
+ src: url('../Fonts/Aloha.otf');
+}
+
+@font-face
+{
+ font-family: 'TimesNewRoman';
+ src: url('../Fonts/TimesNewRoman.ttf');
+}
+
+body {
+ background: url(http://5f1daaa6ffd3f7c4e772-4b66d1c568cfc5d61880d77a99562544.r88.cf1.rackcdn.com/XLGallery/wes3560wn-186215-Playa-Conchal.jpg); 		
+ background-position: center center;
+ background-repeat:  no-repeat;
+ background-attachment: fixed;
+ background-size:  cover;
+ background-color: #ffffff;
+}
+
+h2{
+color: #FFF;
+text-align: center;
+font-size: 30px;
+ font-family: 'Aloha';
+}
+
+p {
+    color: #FFFFFF;
+    text-align:justify;
+    margin: 20px 20px 5px;
+     font-family: 'TimesNewRoman';
+}
+
+#Box{
+	max-width: 500px;
+	min-width: 100px;
+height: 320px;
+margin: 210px 0px 200px 850px;
+
+margin-right: auto;
+}
+
+#Contenido{
+background: rgba(0, 0, 0, 0.34);
+height: 253px;	
+overflow-y: auto;
+}
+
+
