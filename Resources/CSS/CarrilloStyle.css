@@ -12,7 +12,7 @@
 }
 
 body {
- background: url(../Images/FondoCarrillo.jpg); 	
+ background: url(../Images/FondoCarrillo.jpg);
  background-position: center center;
  background-repeat:  no-repeat;
  background-attachment: fixed;
@@ -25,7 +25,7 @@ h2{
 color: #FFF;
 text-align: center;
 font-size: 30px;
- font-family: 'Aloha';
+font-family: 'Aloha';
 }
 
 p {
@@ -47,8 +47,6 @@ margin-right: auto;
 
 #Contenido{
 background: rgba(0, 0, 0, 0.34);
-height: 253px;	
+height: 253px;
 overflow-y: auto;
 }
-
-
