@@ -28,33 +28,49 @@ h1{
 }
 
 #description{
-	background: rgba(0, 0, 0, 0.44);
+	background: rgba(0, 0, 0, 0.57);
 	width: 450px;
-	height: 350px;  
-	text-align=justify-content;
+	height: 345px;  
+	text-align="justify";
 	margin-left: 63%;
 }
 
 #texto_description{
-	text-align="justify";
+	text-align:justify;
 	color: #FFFFFF;
 	font-family: 'TimesNewRoman';
 }
 
 #footer{
 	background: rgba(0, 0, 0, 0.52);
-	height: 100px;
+	height: 92px;
 	width: 100%;
 	margin-top: 5%;
 }
 
 #menu {
+	
+}
 
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #7A7777;
 }
 
 h2{
 	text-align="left";
 	color:#FFFFFF;
-	font-family:'TimesNewRoman';
-	font-size: 12px;
+	font-family:'Aloha';
+	font-size: 14px;
+	line-height: 0.7;
+	padding-top: 1px;
 }
+
