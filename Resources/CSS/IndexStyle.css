@@ -121,3 +121,20 @@ ul{
  a:hover{
    color:#fff;
  }
+
+/*Aca esta lo que une la bandera y las opciones dle menu */
+ #footer
+ {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+ }
+
+ #element1{
+   display:inline-block;
+   margin-right:10px;
+ }
+
+ #element2{
+   display:inline-block;
+ }
