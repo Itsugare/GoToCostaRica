@@ -1,0 +1,73 @@
+@font-face
+{
+  font-family: 'Aloha';
+  src: url('../Fonts/Aloha.otf');
+}
+
+@font-face
+{
+  font-family: 'TimesNewRoman';
+  src: url('../Fonts/TimesNewRoman.ttf');
+}
+
+#Papagayo
+{
+  background-image: url("../Images/1.jpg");
+}
+
+#Conchal
+{
+  background: url(http://5f1daaa6ffd3f7c4e772-4b66d1c568cfc5d61880d77a99562544.r88.cf1.rackcdn.com/XLGallery/wes3560wn-186215-Playa-Conchal.jpg);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+}
+
+#Cocles
+{
+  background: url(../Images/playa-cocles-cocles-island-5.png);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+}
+
+#Carrillo
+{
+  background: url(../Images/FondoCarrillo.jpg);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+}
+
+h2
+{
+  font-size:60px;
+  font-family:'Aloha';
+  padding-bottom: 10px;
+  color:white;
+  text-shadow: 2px 2px #888888;
+}
+
+pre
+{
+color: #FFFFFF;
+text-align:justify;
+margin: 20px 20px 5px;
+font-family: 'TimesNewRoman';
+}
+
+#Contenedor
+{
+  top: 50px;
+  left: 100px;
+  right: 300px;
+}
+
+#Contenido
+{
+  background: rgba(0, 0, 0, 0.34);
+  height: 253px;
+  overflow-y: auto;
+}
