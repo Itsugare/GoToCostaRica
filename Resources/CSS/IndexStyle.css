@@ -1,0 +1,140 @@
+@font-face
+{
+ font-family: 'Aloha';
+ src: url('../Fonts/Aloha.otf');
+}
+
+@font-face
+{
+ font-family: 'TimesNewRoman';
+ src: url('../Fonts/TimesNewRoman.ttf');
+}
+
+.cuadro {
+  background-color:rgb(157,157,157, 0.7);
+  text-align: center;
+  margin: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 15px;
+}
+
+.central{
+  text-align: justify;
+  color: white;
+  font-family: "TimesNewRoman";
+  padding-left: 25px;
+  padding-right: 25px;
+  text-shadow: 2px 2px 4px #000000;
+}
+ header{
+   opacity: 0.7;
+  background-color: rgb(0,0,100);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-family: forte;
+}
+ body{
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ .ladoDer{
+   margin: auto;
+   text-align: center;;
+   width: 300px;
+   height: 200px;
+   padding: 15px;
+
+}
+ .bloque{
+   margin: auto;
+ }
+ .listaImagenes:hover {
+   border-radius: 50px;
+   background-color:rgb(107,107,107);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ h1 {
+   color:white;
+   font-family: "Aloha";
+   text-shadow: 2px 2px 4px #000000;
+ }
+
+ .footer{
+   background: rgba(0, 0, 0, 0.52);
+   width: 89.7%;
+   position: relative;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   bottom: 20px;
+   left: 141px;
+ }
+
+ .leftFooterImage{
+   bottom: -55px;
+   width: 150px;
+   height: 75px;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   float: left;
+   left: -10px;
+   z-index: -1;
+ }
+
+.imagenesMenu{
+  border-radius: 10%;
+  width:300px;
+  height:200px;
+  border:0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .links{
+   font-family: "TimesNewRoman";
+   font-size: 10px;
+   text-transform: uppercase;
+ }
+ul{
+  margin:0;
+  padding: 0;
+  text-align: left;
+  float: left;
+  padding-left: 5px;
+}
+ .menuAbajo{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+ }
+
+ .linkAbajo{
+   color: rgb(107,107,107);
+   text-decoration: none;
+ }
+
+ a:hover{
+   color:#fff;
+ }
+
+/*Aca esta lo que une la bandera y las opciones dle menu */
+ #footer
+ {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+ }
+
+ #element1{
+   display:inline-block;
+   margin-right:10px;
+ }
+
+ #element2{
+   display:inline-block;
+ }
