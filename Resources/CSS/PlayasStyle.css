@@ -38,11 +38,6 @@
   background-size: 100% 310%;
 }
 
-#VisitCostaRica
-{
-  background-image: url("../Images/costaRicaWeather.jpg");
-}
-
 h2
 {
   font-size:60px;
@@ -56,4 +51,19 @@ p
 {
   color: #FFFFFF;
   font-family: 'TimesNewRoman';
+}
+
+#Contenedor
+{
+  top: 50px;
+  left: 100px;
+  right: 300px;
+}
+
+#Contenido
+{
+  background: rgba(0, 0, 0, 0.34);
+  text-align:justify;
+  margin-left: 0 auto;
+  width: 50%;
 }
