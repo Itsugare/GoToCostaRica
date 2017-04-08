@@ -5,7 +5,7 @@ $(document).ready(function(){
   var listaFondos = ['Resources/Images/volcano.jpg', 'Resources/Images/index2.jpg', 'Resources/Images/index3.jpg',
   'Resources/Images/index4.jpg', 'Resources/Images/index5.jpg'];
 
-  var myVar = setInterval(change, 3000);
+  var myVar = setInterval(change, 5000);
 
   function change(){
     indexFondosDerecha++;
