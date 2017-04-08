@@ -1,13 +1,13 @@
 @font-face
 {
- font-family: 'Aloha';
- src: url('../Fonts/Aloha.otf');
+  font-family: 'Aloha';
+  src: url('../Fonts/Aloha.otf');
 }
 
 @font-face
 {
- font-family: 'TimesNewRoman';
- src: url('../Fonts/TimesNewRoman.ttf');
+  font-family: 'TimesNewRoman';
+  src: url('../Fonts/TimesNewRoman.ttf');
 }
 
 .cuadro {
@@ -37,65 +37,65 @@ h1.encima:hover{
   margin-right: 15%;
 }
 
- header{
-   opacity: 0.7;
+header{
+  opacity: 0.7;
   background-color: rgb(0,0,100);
   color: white;
   padding: 15px;
   text-align: center;
   font-family: forte;
 }
- body{
-   background-attachment: fixed;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-image: url("../Images/volcano.jpg");
- }
+body{
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../Images/volcano.jpg");
+}
 
- .ladoDer{
-   margin: auto;
-   text-align: center;;
-   width: 300px;
-   height: 200px;
-   padding: 15px;
+.ladoDer{
+  margin: auto;
+  text-align: center;;
+  width: 300px;
+  height: 200px;
+  padding: 15px;
 
 }
- .bloque{
-   margin: auto;
- }
- .listaImagenes:hover {
-   border-radius: 15%;
-   background-color:rgb(107,107,107);
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
+.bloque{
+  margin: auto;
+}
+.listaImagenes:hover {
+  border-radius: 15%;
+  background-color:rgb(107,107,107);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
- h1 {
-   color:white;
-   font-family: "Aloha";
-   text-shadow: 2px 2px 4px #000000;
- }
+h1 {
+  color:white;
+  font-family: "Aloha";
+  text-shadow: 2px 2px 4px #000000;
+}
 
- .footer{
-   background: rgba(0, 0, 0, 0.52);
-   width: 89.7%;
-   position: relative;
-   padding-bottom: 10px;
-   padding-top: 10px;
-   bottom: 20px;
-   left: 141px;
- }
+.footer{
+  background: rgba(0, 0, 0, 0.52);
+  width: 89.7%;
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  bottom: 20px;
+  left: 141px;
+}
 
- .leftFooterImage{
-   bottom: -55px;
-   width: 150px;
-   height: 75px;
-   margin: 0;
-   padding: 0;
-   position: relative;
-   float: left;
-   left: -10px;
-   z-index: -1;
- }
+.leftFooterImage{
+  bottom: -85px;
+  width: 150px;
+  height: 105px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: left;
+  left: -10px;
+  z-index: -1;
+}
 
 .imagenesMenu{
   border-radius: 10%;
@@ -106,20 +106,20 @@ h1.encima:hover{
 }
 
 .botonesHorizontal{
-    background-color: rgb(0,0,100);
-    border: solid;
-    padding: 7px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-color: white;
+  background-color: rgb(0,0,100);
+  border: solid;
+  padding: 7px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-color: white;
 }
 
 .botonesHorizontal:hover{
-    transition-duration: 0.6s;
-    background-color: #fff;
+  transition-duration: 0.6s;
+  background-color: #fff;
 }
 
 .tablaBotones{
@@ -131,11 +131,11 @@ h1.encima:hover{
   display: inline;
   height: 5%;
 }
- .links{
-   font-family: "TimesNewRoman";
-   font-size: 10px;
-   text-transform: uppercase;
- }
+.links{
+  font-family: "TimesNewRoman";
+  font-size: 10px;
+  text-transform: uppercase;
+}
 ul{
   margin:0;
   padding: 0;
@@ -143,25 +143,50 @@ ul{
   float: left;
   padding-left: 5px;
 }
- .menuAbajo{
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   text-align: left;
- }
+.menuAbajo{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
 
- .linkAbajo{
-   color: rgb(107,107,107);
-   text-decoration: none;
- }
+.linkAbajo{
+  color: rgb(107,107,107);
+  text-decoration: none;
+}
 
- a:hover{
-   color:#fff;
- }
+a:hover{
+  color:#fff;
+}
 
 /*Aca esta lo que une la bandera y las opciones dle menu */
- #footer
- {
-   bottom: 0;
-   width: 100%;
- }
+#Contenedor
+{
+  top: 50px;
+  left: 100px;
+  right: 300px;
+}
+
+#Contenido
+{
+  background: rgba(0, 0, 0, 0.34);
+  text-align:justify;
+  margin-left: 0 auto;
+  width: 50%;
+}
+
+#footer
+{
+  width: 100%;
+  bottom: 0%;
+  clear:both
+}
+
+#element1{
+  float: left;
+}
+
+#element2{
+  float: left;
+  padding: 10px;
+}
