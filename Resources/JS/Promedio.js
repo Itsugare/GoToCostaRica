@@ -8,3 +8,7 @@ function myFunction() {
        var e = (a+b+c+d)/4
     document.getElementById("Resultado").innerHTML = e;
 }
+
+ $( function() {
+    $( "#datepicker" ).datepicker();
+  } );

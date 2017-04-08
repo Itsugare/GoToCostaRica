@@ -1,11 +1,20 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="Resources/CSS/IndexStyle.css">
+  <link rel="stylesheet" type="text/css" href="Resources/CSS/Extras.css">
   <script src="Resources/JS/Promedio.js" type="text/javascript"></script>
-</head>
-<body>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
+ <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+
+</head>
+<body id="a">
+<div id="ContenedorPromedio">
 <table>
   <tr>
     <th>Playa</th>
@@ -35,9 +44,15 @@
     <p onload="myFunction()" id="Resultado"></p>
 
     </td>
+
+
   </tr>
+
 </table>
 
+
+     <p id="Calendario">Date: <input type="text" id="datepicker"></p>
+</div>
 
 </body>
 </html>
