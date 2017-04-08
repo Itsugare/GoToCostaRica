@@ -9,6 +9,6 @@ function myFunction() {
     document.getElementById("Resultado").innerHTML = e;
 }
 
- $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
+$(function(){
+	$("#datepicker" ).datepicker(); 
+});
