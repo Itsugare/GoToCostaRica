@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Papagayo</title>
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Average</title>
   <link rel="stylesheet" type="text/css" href="Resources/CSS/IndexStyle.css">
-  <link rel="stylesheet" type="text/css" href="Resources/CSS/PlayasStyle.css">
+  <script src="Resources/JS/Promedio.js" type="text/javascript"></script>
 </head>
-<body id="Papagayo">
+<body>
   <div id="Contenedor">
-    <h2>Playa Papagayo</h2>
+    <h2>Promedio</h2>
     <div id="Contenido">
-      <p>
-        The northern Guanacaste shoreline looks out over the expansive Gulf of
-        Papagayo (Golfo de Papagayo), the setting for Costa Rica's premier luxury resorts and most sought after
-        beaches. Immersed in stunning natural beauty, it is no wonder that the gulf is experiencing
-        an unprecedented boom in the construction of all inclusive resort complexes.
-
-        From Ocotal to Culebra Bay, resorts are popping up along the coast line, particularly at Coco,
-        Hermosa and Panamá beaches, as well as Culebra Bay, the site of Costa Rica’s most
-        premier resorts.
-      </p>
+      <table>
+        <tr>
+          <th>Playa</th>
+          <th>Visitantes por año</th>
+        </tr>
+        <tr>
+          <td>Cocles</td>
+          <td><input type="text" id="Cocles"></td>
+        </tr>
+        <tr>
+          <td>Carrillo</td>
+          <td><input type="text" id="Carrillo"></td>
+        </tr>
+        <tr>
+          <td>Conchal</td>
+          <td><input type="text" id="Conchal"></td>
+        </tr>
+        <tr>
+          <td>Papagayo</td>
+          <td><input type="text" id="Papagayo"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="button" onclick="myFunction()">Click</button></td>
+        </tr>
+        <tr>
+          <td>Promedio de visitas</td>
+          <td><input type="text" id="Resultado"></td>
+        </tr>
+      </table>
     </div>
     <div id="footer">
       <a href="Index.html" id="element1">

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visit Costa Rica</title>
+  <link rel="stylesheet" type="text/css" href="Resources/CSS/IndexStyle.css">
+  <link rel="stylesheet" type="text/css" href="Resources/CSS/PlayasStyle.css">
+  <link rel="stylesheet" href="Resources/CSS/DatePicker/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker({
+      numberOfMonths: 2,
+      showButtonPanel: true
+    });
+  } );
+
+
+  function calcularMesDelAno()
+  {
+    var season = document.getElementById("datepicker").value;
+    var seasonString = String(season);
+
+    if (seasonString.substring(0,2)==12 || seasonString.substring(0,2)==1 || seasonString.substring(0,2)==2 || seasonString.substring(0,2)==3 || seasonString.substring(0,2)==4) {
+      document.getElementById("TextSeason").value="Dry season";
+    }else {
+      document.getElementById("TextSeason").value="Rainy season";
+    }
+
+  }
+  </script>
+</head>
+<body id="VisitCostaRica">
+  <div id="Contenedor">
+    <div>
+      <h2>Visit Costa Rica</h2>
+    </div>
+    <div id="Contenido">
+      <p>
+        Costa Rica is a country where there are 2 sessions, rainy season and sunny season.<br>
+        We have created a tool where it tells you which seasion will be available,<br>
+        based on the date that you select.
+        <br><br>
+        Date: <input type="text" id="datepicker">
+        <button type="button" onclick="calcularMesDelAno()">Determine season of the year</button><br><br>
+        Season: <input type="text" id="TextSeason">
+      </p>
+    </div>
+    <div id="footer">
+      <a href="Index.html" id="element1">
+        <img class="leftFooterImage"src="Resources/Images/crflag.gif" title="Flag" alt="Costa Rica's flag">
+      </a>
+      <ul class="links footer" id="element2">
+        <table>
+          <tr>
+            <td>
+              <li class="menuAbajo"><a class="linkAbajo" href="Cocles.html">Cocles</a></li>
+              <li class="menuAbajo"><a class="linkAbajo" href="Carrillo.html">Carrillo</a></li>
+              <li class="menuAbajo"><a class="linkAbajo" href="Conchal.html">Conchal</a></li>
+              <li class="menuAbajo"><a class="linkAbajo" href="Papagayo.html">Papagayo</a></li>
+              <li class="menuAbajo"><a class="linkAbajo" href="Promedio.html">Promedio</a></li>
+              <li class="menuAbajo"><a class="linkAbajo" href="VisitCostaRica.html">Visit Costa Rica</a></li>
+              <li class="menuAbajo"><a class="linkAbajo" href="CostaRicaInfo.html">Costa Rica's Information</a></li>
+            </td>
+          </tr>
+        </table>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
